@@ -14,7 +14,7 @@ def create_database():
         connect.commit()
 
         cursor.execute('''CREATE TABLE IF NOT EXISTS course (
-                            cid INTEGER PRIMARY KEY AUTOINCREMENT,
+                            roll INTEGER PRIMARY KEY AUTOINCREMENT,
                             name TEXT,
                             email TEXT,
                             gender TEXT,
